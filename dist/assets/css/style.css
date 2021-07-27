@@ -900,6 +900,7 @@ textarea:focus {
   height: 100%;
   z-index: 9;
   background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 .popup_calc_content {
@@ -977,6 +978,13 @@ textarea:focus {
 
 .popup_calc_button {
   padding: 1rem 5rem;
+}
+.popup_button_disable {
+  border: 1px solid #f0d69a;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#58563f ), to(#f0d69a));
+  background: linear-gradient(180deg, #58563f 0%, #f0d69a 100%);
+  box-shadow:0;
 }
 
 .popup_calc_profile {
