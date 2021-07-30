@@ -605,6 +605,15 @@ textarea:focus {
 .works a[data-fancybox="gallery"]:hover .lupa {
   opacity: 1;
 }
+.works_popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.works_popup-content{
+  height: 85%;
+  object-fit: cover;
+}
 
 /*Guarantees*/
 .guarantees {
